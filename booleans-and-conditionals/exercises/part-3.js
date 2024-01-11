@@ -39,9 +39,9 @@ engineIndicatorLight = "red blinking";
 fuelLevel = 10000
 
 if (fuelLevel && engineIndicatorLight == "red blinking"){
-    console.log("Shuttle will launch");
+    console.log("shuttle will launch regardless of the fuel and engine status");
 }   else if(fuelLevel > 5000  && engineIndicatorLight == "!red blinking"){
-    console.log("Shuttle should run");
+    console.log("shuttle should only launch if the fuel and engine check are OK");
 }
 
 /* 6) b) Code the following if/else check:
