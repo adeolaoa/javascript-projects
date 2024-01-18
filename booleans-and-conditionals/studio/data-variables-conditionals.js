@@ -17,8 +17,8 @@ let fuelLevel = "100%";
 let weatherStatus = "clear";
 let preparedForLiftOff = true;
 
-//fuelLevel = "50%";
-//astronautCount = 9;
+fuelLevel = "50%";
+astronautCount = 9;
 //weatherStatus = "!clear";
 
 // add logic below to verify total number of astronauts for shuttle launch does not exceed 7
