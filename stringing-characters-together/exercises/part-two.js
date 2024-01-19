@@ -37,7 +37,8 @@ console.log(newdna.slice(16,19));
 let dnaCount = newdna.length;
 console.log("The DNA starand is " +  dnaCount + " characters long.");
 
-console.log('The DNA starand is ${dnaCount} characters long.');
+console.log(`The DNA starand is ${dnaCount} characters long.`);
+
 //5) Just for fun, apply methods to ``dna`` and use another template literal to print, 'taco cat'.
 console.log(`${newdna.slice(4,7).toLowerCase()}o 
 ${newdna.slice(newdna.indexOf('CAT'),newdna.indexOf('CAT')+3).toLowerCase()}`);
