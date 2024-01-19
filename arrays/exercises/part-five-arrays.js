@@ -6,8 +6,8 @@ let arr = ['B', 'n', 'n', 5];
 str.split();
 console.log(str);
 
-str.split('e')
-console.log(str);
+//str.split('e')
+console.log(str.split('e'));
 
 str.split(' ')
 console.log(str);
