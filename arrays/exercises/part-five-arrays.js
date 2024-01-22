@@ -3,33 +3,33 @@ let arr = ['B', 'n', 'n', 5];
 
 //1) Use the split method on the string to identify the purpose of the parameter inside the ().
 
-str.split();
-console.log(str);
+//str.split()
+console.log(str.split());
 
 //str.split('e')
 console.log(str.split('e'));
 
-str.split(' ')
-console.log(str);
+//str.split(' ')
+console.log(str.split(" "));
 
-str.split('')
-console.log(str);
+//str.split('')
+console.log(str.split(''));
 
 // parameter inside the split() has no effect or purpose.
 
 //2) Use the join method on the array to identify the purpose of the parameter inside the ().
 
-arr.join()
-console.log(arr);
+//arr.join()
+console.log(arr.join());
 
-arr.join('a')
-console.log(arr);
+//arr.join('a')
+console.log(arr.join("a"));
 
-arr.join(' ')
-console.log(arr);
+//arr.join(' ')
+console.log(arr.join(" "));
 
-arr.join('')
-console.log(arr);
+//arr.join('')
+console.log(arr.join(""));
 
 //3) Do split or join change the original string/array? No, it does not.
 
