@@ -5,7 +5,6 @@
 // for statement that starts at zero and runs less than length of the function parameter.
 // then increment with the character one has in mind for the empty string specified
 
-const { sign } = require("crypto");
 
 function makeLine(size, line = "."){
     let lin = ""
