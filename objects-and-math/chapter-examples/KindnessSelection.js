@@ -13,5 +13,17 @@ function randomSelection(arr){
  
  //Experiment with the code above. Try to:
  //a) Print 3 random selections from each array.
+ function randomSelection(arr){
+  let index = Math.floor(Math.random()*3);
+  return arr[index];
+}
+
+happiness = ['Hope', 'Joy', 'Peace', 'Love', 'Kindness', 'Puppies', 'Kittens', 'Tortoise'];
+
+words = ['Hello', 'World', 'Python', 'JavaScript', 'Rutabaga'];
+
+for (i=0; i < 3; i++){
+  console.log(randomSelection(happiness));
+}
  //b) Have the code randomly pick one array, and then print 2 random items from it.
  //c) Create a new array, then fill it with one random item from words and happiness. Print the new array.

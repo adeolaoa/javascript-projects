@@ -64,6 +64,7 @@ let arrayNew = function(array){
   let arrSec = [];
   let neww = ['key', 'joy'];
   for (let i = 0; i < 2; i++){
+    // push into new array
     arrSec.push(cargoHold[i]);
   }
   cargoHold.splice(0,2);
